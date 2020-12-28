@@ -18,7 +18,7 @@ Step 2: Create a custom device template IOT 'Device'. Click 'Next: Customize':
 
 Step 3: Give your template a name. Click 'Next: Review', then 'Create'.
 
-Step 4: Click 'Import a model'. At this point select the AZ3166.json file I am sharing here.
+Step 4: Click 'Import a model'. At this point select the <A HREF="https://github.com/andrewwhitten/Azure-IoT-Central-AZ3166-Setup/blob/main/AZ3166.json" >AZ3166.json</A> file I am sharing here.
 
 
 That's it. You can now assign your device to this template.
