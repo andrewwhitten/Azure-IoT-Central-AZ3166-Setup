@@ -10,8 +10,9 @@ Do note that the project above is marked as archive as of August 2020, so there 
 
 The Microsoft Azure IOT Central still works as fine as before, however it no longer has a template for my device! I'm not sure why they removed it, so I have recreated from the raw data and am sharing here on Github.
 
-Step 1: In your Azure IOT Central account, go to Device Templates and create 'New'
+# Instructions
 
+Step 1: In your Azure IOT Central account, go to Device Templates and create 'New'
 
 Step 2: Create a custom device template IOT 'Device'. Click 'Next: Customize':
 
@@ -22,7 +23,9 @@ Step 4: Click 'Import a model'. At this point select the AZ3166.json file I am s
 
 That's it. You can now assign your device to this template.
 
+# Notes
 
+The template includes the location (longitude and langitude), but only displays as a JSON string currently. I still need to fix that to pick up the correct properties.
 
 
 
