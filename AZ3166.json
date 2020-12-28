@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "dtmi:andrewwhitten:MXChipAZ31663v7;2",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:temp;1",
+        "@type": [
+          "Telemetry",
+          "Temperature"
+        ],
+        "displayName": {
+          "en": "Temperature"
+        },
+        "name": "temp",
+        "schema": "double",
+        "unit": "degreeCelsius"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:magnetometerX;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Magnetometer X"
+        },
+        "name": "magnetometerX",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:magnetometerY;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Magnetometer Y"
+        },
+        "name": "magnetometerY",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:magnetometerZ;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Magnetometer Z"
+        },
+        "name": "magnetometerZ",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:accelerometerX;1",
+        "@type": [
+          "Telemetry",
+          "AccelerationVector"
+        ],
+        "displayName": {
+          "en": "Accelerometer X"
+        },
+        "name": "accelerometerX",
+        "schema": "vector"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:accelerometerY;1",
+        "@type": [
+          "Telemetry",
+          "AccelerationVector"
+        ],
+        "displayName": {
+          "en": "Accelerometer Y"
+        },
+        "name": "accelerometerY",
+        "schema": "vector"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:accelerometerZ;1",
+        "@type": [
+          "Telemetry",
+          "AccelerationVector"
+        ],
+        "displayName": {
+          "en": "Accelerometer Z"
+        },
+        "name": "accelerometerZ",
+        "schema": "vector"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:gyroscopeX;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Gyroscope X"
+        },
+        "name": "gyroscopeX",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:gyroscopeY;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Gyroscope Y"
+        },
+        "name": "gyroscopeY",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:gyroscopeZ;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Gyroscope Z"
+        },
+        "name": "gyroscopeZ",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:humidity;1",
+        "@type": [
+          "Telemetry",
+          "Humidity"
+        ],
+        "displayName": {
+          "en": "Humidity"
+        },
+        "name": "humidity",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:pressure;1",
+        "@type": [
+          "Telemetry",
+          "Pressure"
+        ],
+        "displayName": {
+          "en": "Pressure"
+        },
+        "name": "pressure",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:andrewwhitten:MXChipAZ31663v7:location;2",
+        "@type": [
+          "Property",
+          "Location"
+        ],
+        "displayName": {
+          "en": "Location"
+        },
+        "name": "location",
+        "schema": "geopoint"
+      }
+    ],
+    "displayName": {
+      "en": "AZ3166"
+    },
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ]
+  }
+]
